@@ -1,0 +1,154 @@
+@media screen and (max-width: 992px) {
+    .container {
+        width: 90%;
+    }
+    .intro-text h1 {
+        font-size: 60px;
+    }
+    .intro-text .btn-lg {
+        padding: 8px 15px;
+    }
+    .intro-text p {
+        margin-bottom: 30px;
+    }
+
+    .timeLine-image,
+    .timeLine:before {
+        left: 10%;
+    }
+    .marginL,
+    .marginR {
+        margin-left: 150px;
+    }
+    .marginR {
+    	margin-right: 0;
+    }
+    .timeLine-text {
+        padding-top: 25px;
+    }
+
+    .contact h3 {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro-text h1 {
+        font-size: 45px;
+    }
+    .intro-text p {
+        font-size: 16px;
+    }
+    .intro-text .btn-lg {
+        font-size: 14px;
+    }
+    .navbar .container {
+        width: 100%;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    .nav>li {
+        border-bottom: 1px solid #76818d;
+    }
+    .nav>li.noBorder {
+        border-bottom: none;
+    }
+}
+@media screen and (max-width: 640px) {
+    .intro-text h1 {
+        font-size: 38px;
+    }
+    .intro-text p {
+        margin-bottom: 25px;
+    }
+    .intro-text .btn-lg {
+        padding: 5px 10px;
+    }
+    .intro-text .btn {
+        margin-left: 5px;
+    }
+    .timeLine-image,
+    .timeLine:before {
+        left: 15%;
+    }
+    .timeLine-image {
+        width: 130px;
+        height: 130px;
+        margin-left: -65px;
+    }
+    .timeLine-image h4 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 35%;
+    }
+
+    .contact .section-title p,
+    .contact p {
+        padding-bottom: 20px;
+    }
+    .contact .btn {
+        font-size: 14px;
+    }
+    .social li {
+        padding: 5px 25px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .intro-text h1 {
+        font-size: 30px;
+    }
+    .intro-text p {
+        font-size: 14px;
+    }
+    .text-indent {
+        text-indent: 14px;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .portFilter a {
+        padding: 25px 10px 35px;
+    }
+    .experience ul {
+        padding-left: 0;
+    }
+    .timeLine-image {
+        left: 50%;
+    }
+    .timeLine li {
+        padding-bottom: 70px;
+    }
+    .timeLine:before {
+        width: 0;
+    }
+    .timeLine-image {
+        width: 120px;
+        height: 120px;
+        margin-left: -60px;
+    }
+    .timeLine-image h4 {
+        font-size: 14px;
+    }
+    .marginL,
+    .marginR {
+        margin-left: 0;
+    }
+    .marginR {
+        margin-right: 0;
+    }
+    .timeLine-text {
+        padding-top: 0;
+        margin-top: 140px;
+        text-align: left;
+    }
+    .contact .btn {
+        padding: 8px 12px;
+    }
+    .social li {
+        padding: 5px 10px;
+    }
+    .social .fa {
+        font-size: 18px;
+    }
+}
