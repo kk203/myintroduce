@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- zzf -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>zzf resume</title>
+
+    <!--引用样式表-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="70">
+
+<!----------------------------------------------------介绍自我------------------------------------------>
+
+<section class="intro" id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="intro-text">
+                <h1>Hello, 我是刘凯</h1>
+                <p>应聘前端工程师</p>
+                <a class="btn btn-default btn-lg" href="#about">关于我</a>
+                <a class="btn btn-default btn-lg" href="#works">我的作品</a>
+            </div>
+
+            <p class="next text-center">
+                <a href="#about" id="go-to-next">
+                    <i class="fa fa-arrow-circle-down"></i>
+                </a>
+            </p>
+        </div>
+    </div>
+</section>
+
+<!------------------------------------------------------------导航条----------------------------------------->
+
+<nav class="navbar navbar-inverse" role="navigation" id="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-bars"></i>
+
+            </button>
+            <a class="navbar-brand" href="#intro">刘&nbsp;凯</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav navbar-right navbar-custom">
+                <li><a href="#intro">主页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#works">我的作品</a></li>
+                <li><a href="#skills">技能描述</a></li>
+                <li><a href="#experience">工作履历</a></li>
+                <li class="noBorder"><a href="#contact">联系方式</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-----------------------------------------------------------关于我----------------------------------------->
+
+<section class="about-me" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="section-title col-md-12 text-center">
+                <h2>关于自我</h2>
+                <hr>
+            </div>
+            <div class="col-md-12 text-center">
+                <img class="img-circle img-w" src="images/myself.jpg" alt="">
+            </div>
+            <div class="col-md-8 col-md-offset-2">
+               <div class="about-text">
+                   <p class="text-indent">我就读于桂林电子科技大学，对于前端开发兴趣浓厚，迫切想要加入程序“猿”的行列……</p>
+                   <p class="text-indent">(1)富有团队精神，能够相互协作和充分的沟通。
+                                (2)对程序的开发及测试方面很感兴趣。
+                                (3)有较强的求知欲、较强的学习能力,能适应行业的要求和新技术的挑战。
+                                (4)对自己要求严格，做事情讲究效率;
+                   </p>
+                   <p class="text-center">
+                       <a class="btn btn-primary" href="javascript:void (0)">
+                           <i class="fa fa-download"></i> 下载简历
+                       </a>
+                   </p>
+               </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--------------------------------------------------------我的作品---------------------------------------->
+
+<section class="works" id="works">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center section-title">
+                <h2>my portfolio</h2>
+                <hr>
+                <p>这是我在校期间完成的一些作品集</p>
+            </div>
+
+            <div id="works-display">
+                <div class="container">
+                    <div class="portFilter text-center">
+                        <a class="current" href="#" data-filter>All</a>|
+                        <a href="#" data-filter=".web">Web</a>|
+                        <a href="#" data-filter=".design">Design</a>|
+                        <a href="#" data-filter=".app">App</a>
+                    </div>
+                    <div class="row">
+                        <div id="work-item" class="work-item isotope" style="position: relative; overflow:hidden; height: 580px;">
+                            <figure class="isotope-items item col-md-3 col-lg-3 col-sm-6 design" style="width: 290px;">
+                                <img src="images/w4.PNG" alt="item1">
+                                <figcaption>
+                                    <a class="portFilter-container text-center" href="">
+                                        <div class="portFilter-caption">
+                                            <h4 class="portFilter-title">Project title</h4>
+                                            <small class="portFilter-content">Web</small>
+                                        </div>
+                                        <span class="portFilter-icon">
+                                            <i class="fa fa-search"></i>
+                                        </span>
+                                    </a>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="isotope-items item col-md-3 col-lg-3 col-sm-6 design web" style="width: 290px;">
+                                <img src="images/w1.PNG" alt="item1">
+                                <figcaption>
+                                    <a class="portFilter-container text-center" href="">
+                                        <div class="portFilter-caption">
+                                            <h4 class="portFilter-title">Project title</h4>
+                                            <small class="portFilter-content">Web</small>
+                                        </div>
+                                        <span class="portFilter-icon">
+                                            <i class="fa fa-search"></i>
+                                        </span>
+                                    </a>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="isotope-items item col-md-3 col-lg-3 col-sm-6 web design" style="width: 290px;">
+                                <img src="images/w7.PNG" alt="item1">
+                                <figcaption>
+                                    <a class="portFilter-container text-center" href="">
+                                        <div class="portFilter-caption">
+                                            <h4 class="portFilter-title">Project title</h4>
+                                            <small class="portFilter-content">Web</small>
+                                        </div>
+                                        <span class="portFilter-icon">
+                                            <i class="fa fa-search"></i>
+                                        </span>
+                                    </a>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="isotope-items item col-md-3 col-lg-3 col-sm-6 web" style="width: 290px;">
+                                <img src="images/w9.PNG" alt="item1">
+                                <figcaption>
+                                    <a class="portFilter-container text-center" href="">
+                                        <div class="portFilter-caption">
+                                            <h4 class="portFilter-title">Project title</h4>
+                                            <small class="portFilter-content">Web</small>
+                                        </div>
+                                        <span class="portFilter-icon">
+                                            <i class="fa fa-search"></i>
+                                        </span>
+                                    </a>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="isotope-items item col-md-3 col-lg-3 col-sm-6 web app" style="width: 290px;">
+                                <img src="images/w6.PNG" alt="item1">
+                                <figcaption>
+                                    <a class="portFilter-container text-center" href="">
+                                        <div class="portFilter-caption">
+                                            <h4 class="portFilter-title">Project title</h4>
+                                            <small class="portFilter-content">Web</small>
+                                        </div>
+                                        <span class="portFilter-icon">
+                                            <i class="fa fa-search"></i>
+                                        </span>
+                                    </a>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="isotope-items item col-md-3 col-lg-3 col-sm-6 app web" style="width: 290px;">
+                                <img src="images/w5.PNG" alt="item1">
+                                <figcaption>
+                                    <a class="portFilter-container text-center" href="">
+                                        <div class="portFilter-caption">
+                                            <h4 class="portFilter-title">Project title</h4>
+                                            <small class="portFilter-content">Web</small>
+                                        </div>
+                                        <span class="portFilter-icon">
+                                            <i class="fa fa-search"></i>
+                                        </span>
+                                    </a>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="isotope-items item col-md-3 col-lg-3 col-sm-6 web design" style="width: 290px;">
+                                <img src="images/w3.PNG" alt="item1">
+                                <figcaption>
+                                    <a class="portFilter-container text-center" href="">
+                                        <div class="portFilter-caption">
+                                            <h4 class="portFilter-title">Project title</h4>
+                                            <small class="portFilter-content">Web</small>
+                                        </div>
+                                        <span class="portFilter-icon">
+                                            <i class="fa fa-search"></i>
+                                        </span>
+                                    </a>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="isotope-items item col-md-3 col-lg-3 col-sm-6 app" style="width: 290px;">
+                                <img src="images/w8.PNG" alt="item1">
+                                <figcaption>
+                                    <a class="portFilter-container text-center" href="">
+                                        <div class="portFilter-caption">
+                                            <h4 class="portFilter-title">Project title</h4>
+                                            <small class="portFilter-content">Web</small>
+                                        </div>
+                                        <span class="portFilter-icon">
+                                            <i class="fa fa-search"></i>
+                                        </span>
+                                    </a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-------------------------------------------------------我的技能------------------------------------------->
+
+<section class="skills" id="skills">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center section-title">
+                <h2>my skills</h2>
+                <hr>
+                <p>我的技能</p>
+            </div>
+
+            <div class="progress-container">
+                <div class="col-md-6">
+                    <div class="progress thin .animated wow">
+                        <!--<div class="progress-title">html</div>-->
+                        <div class="progress-bar default-bar" role="progressbar" aria-valuenow="78%" aria-valuemax="100" aria-valuemin="0" style="width: 78%;">
+                            <span class="progress-text">html5</span>
+                            <span class="progress-percent">78%</span>
+                        </div>
+                    </div>
+                    <div class="progress thin">
+                        <!--<div class="progress-title">html</div>-->
+                        <div class="progress-bar light-yellow-bar" role="progressbar" aria-valuenow="75%" aria-valuemax="100" aria-valuemin="0" style="width: 75%;">
+                            <span class="progress-text">javascript</span>
+                            <span class="progress-percent">75%</span>
+                        </div>
+                    </div>
+                    <div class="progress thin">
+                        <!--<div class="progress-title">html</div>-->
+                        <div class="progress-bar light-red-bar" role="progressbar" aria-valuenow="82%" aria-valuemax="100" aria-valuemin="0" style="width: 82%;">
+                            <span class="progress-text">bootstrap</span>
+                            <span class="progress-percent">82%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="progress thin">
+                        <!--<div class="progress-title">html</div>-->
+                        <div class="progress-bar light-green-bar" role="progressbar" aria-valuenow="85%" aria-valuemax="100" aria-valuemin="0" style="width: 85%;">
+                            <span class="progress-text">css3</span>
+                            <span class="progress-percent">85%</span>
+                        </div>
+                    </div>
+                    <div class="progress thin">
+                        <!--<div class="progress-title">html</div>-->
+                        <div class="progress-bar light-grape-bar" role="progressbar" aria-valuenow="65%" aria-valuemax="100" aria-valuemin="0" style="width: 65%;">
+                            <span class="progress-text">php</span>
+                            <span class="progress-percent">65%</span>
+                        </div>
+                    </div>
+                    <div class="progress thin">
+                        <!--<div class="progress-title">html</div>-->
+                        <div class="progress-bar light-blue-bar" role="progressbar" aria-valuenow="70%" aria-valuemax="100" aria-valuemin="0" style="width: 70%;">
+                            <span class="progress-text">juery</span>
+                            <span class="progress-percent">70%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-------------------------------------------------------我的实践经历------------------------------------->
+
+<section class="experience" id="experience">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center section-title">
+                <h2>my experience</h2>
+                <hr>
+                <p>这是我的一些项目经历</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeLine">
+                        <li class="clearfix">
+                            <div class="timeLine-image col-md-8">
+                                <h4>
+                                    2016年 8月 <br>
+                                    - <br>
+                                    至今
+                                </h4>
+                            </div>
+                            <div class="timeLine-text marginL text-left col-md-4">
+                                <h4 class="text-center">介绍一个团队的响应式网站</h4>
+                                <h4 class="smallHeading text-center">前端</h4>
+                                <p class="text-indent">仿照网上的网站做，主要运用html5，css3，jq，以及bootstrap框架实现。首先我先下载网站上所需要的图片素材，字体文件（主要是链接外部的字体文件）。</p>
+                                    <p class="text-indent">该网站用到了很多的js，比如：鼠标滚动切换视图，以及初始化动画等都是通过jq来实现。html5中有一个data-filter的属性，主要是根据分类来进行筛选的。刚开始我并不能实现，后来通过百度，查看原网站的js脚本，最后实现此效果。</p>
+                                    <p class="text-indent">现在网站还有些效果还没有完全实现，但大部分的内容已经完成。</p>
+                            </div>
+                        </li>
+
+                        <li class="clearfix">
+
+                            <div class="timeLine-image col-md-8">
+                                <h4>
+                                    2016年8月 <br>
+                                    - <br>
+                                    2016年 9月
+                                </h4>
+                            </div>
+                            <div class="timeLine-text marginR pull-right text-left col-md-4">
+                                <h4 class="text-center">响应式的团队介绍网站</h4>
+                                <h4 class="smallHeading text-center">前端</h4>
+                                <p class="text-indent">这是一个自拟项目，在网上挑了一个响应式的网站进行模拟重构</p>
+                                    <p class="text-indent">此网站是一页多版块形式的，主要用到css3与伪类选择器结合使用的动画，加上jQuery。实现了一些动画，filter过滤筛选的效果（使用jQ插件）。</p>
+                            </div>
+                        </li>
+
+                        <li class="clearfix noPadding">
+                            <div class="timeLine-image col-md-8">
+                                <h4>
+                                    2016年7月半 <br>
+                                    - <br>
+                                    2016年 8月
+                                </h4>
+                            </div>
+                            <div class="timeLine-text marginL text-left col-md-4">
+                               <h4 class="text-center">二次元绘本网站</h4>
+                                <h4 class="smallHeading text-center">前端</h4>
+                                <p class="text-indent">这是根据客户的要求模仿一个二次元网站的版式做的，在做的时候，遇到css3的padding问题，默认情况下，盒子的宽高是不包括内边距的，所以你只要设置padding盒子就会被改变。</p>
+                                    <p class="text-indent">后来在菜鸟教程了解到box-sizing的属性，只要设置box-sizing：border-box，即使加上了padding，也不会影响盒子的宽高。在这个网站中，有了解过一点的less（在less的中文网上，以及在极客学院，菜鸟教程中学习）和git命令（是看的阮一峰的常用命令清单）。</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!------------------------------------------------------------联系我----------------------------------------------->
+
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="section-title text-center col-md-12">
+                <h2>contact me</h2>
+                <hr>
+                <p>如果你对我感兴趣的话，请告诉我噢！</p>
+            </div>
+            <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-4 col-sm-4 text-center">
+                    <i class="fa fa-map-marker fa-2x text-center"></i>
+                    <p>桂林电子科技大学
+                        </p>
+                </div>
+                <div class="col-md-4 col-sm-4 text-center">
+                    <i class="fa fa-envelope-o fa-2x text-center"></i>
+                    <p>2678880678@qq.com</p>
+                </div>
+                <div class="col-md-4 col-sm-4 text-center">
+                    <i class="fa fa-phone fa-2x text-center"></i>
+                    <p> 135-3820-0479</p>
+                </div>
+            </div>
+
+            <div class="col-md-8 col-sm-12 col-md-offset-2">
+                <h3>Leave me a message</h3>
+                <small>- 给我留言</small>
+                <form class="messages" name="messages">
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <input class="form-control" required type="text" placeholder="Name">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <input class="form-control" required type="email" placeholder="Email">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea class="form-control" rows="4" aria-invalid="false" placeholder="messages"></textarea>
+                    </div>
+
+                    <button class="btn btn-default" type="submit">send messages</button>
+                </form>
+
+                <div class="social">
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---------------------------------------------------------版权区----------------------------------------->
+
+<footer>
+    <div class="copyright">
+        <p>copyRight &copy;2016 zhu zhiFen.</p>
+    </div>
+</footer>
+
+
+<!--链接外部脚本-->
+<script src="script/jquery-1.11.1.min.js"></script>
+<script src="script/bootstrap.min.js"></script>
+
+<!--过滤信息所用的插件-->
+<script src="script/jquery.isotope.js"></script>
+
+<script src="script/js.js"></script>
+</body>
+</html>
